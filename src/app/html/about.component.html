@@ -1,0 +1,670 @@
+
+<div class="main-d">
+  <h1>Цены</h1>
+
+  <div class="price-wrap">
+    <h2>Ортопедия</h2>
+
+    <div class="main-mark">
+      <div class="head-o" (click)="toggle()">
+        <h3>Консультация</h3>
+      </div>
+
+      <!--<div id="main" bold>
+        <h3>Ортопедия</h3>
+      </div>-->
+
+      <!--<div id="main" (click)="increase()">
+        <h3>Ортопедия</h3>
+      </div>-->
+      <div *while="!condition">
+      </div>
+
+      <div *while="condition">
+        <div class="price-m" bold>
+
+          <!--<div class="head">
+            <div class="price-left">
+              <p>Наименование</p>
+            </div>
+            <div class="price-right">
+              <p>Стоимость</p>
+            </div>
+          </div>-->
+
+          <div class="price-left">
+            <p>Составление плана лечения, первичный осмотр. </p>
+          </div>
+          <div class="price-right">
+            <p>300 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Интраоральные исследования (1 ед.) </p>
+          </div>
+          <div class="price-right">
+            <p>150 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Анестезия</p>
+          </div>
+          <div class="price-right">
+            <p>250 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Ретракция десны (1 зуб) </p>
+          </div>
+          <div class="price-right">
+            <p>100 грн.</p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="main-mark">
+      <div class="head-o" (click)="toggleO()">
+        <h3>Слепок </h3>
+      </div>
+
+      <div *while="station"></div>
+
+      <div *while="!station">
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Слепок (альгинатная масса) и изготовление модели из гипса</p>
+          </div>
+          <div class="price-right">
+            <p>600 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Однослойный слепок с помощью индивидуальной ложки (силиконовая масса) </p>
+          </div>
+          <div class="price-right">
+            <p>750 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Двухслойный слепок (силиконовая масса)</p>
+          </div>
+          <div class="price-right">
+            <p>850 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Межчелюстной слепок прикусной (силиконовая масса) </p>
+          </div>
+          <div class="price-right">
+            <p>450 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Литая коронка восстановительная (1 зуб) / литая коронка бюгельная </p>
+          </div>
+          <div class="price-right">
+            <p>2500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Комбинированная коронка, фасетка</p>
+          </div>
+          <div class="price-right">
+            <p>3700 грн.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="price-wrap">
+    <h2>Хирургическая стоматология</h2>
+
+    <div class="main-mark">
+      <div class="head-o" (click)="toggleT()">
+        <h3>Консервативное лечение</h3>
+      </div>
+
+      <div *while="stationT"></div>
+
+      <div *while="!stationT">
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Аппликационная анестезия</p>
+          </div>
+          <div class="price-right">
+            <p>50 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Инфильтрационная анестезия</p>
+          </div>
+          <div class="price-right">
+            <p>250 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Удаление зуба первой степени тяжести </p>
+          </div>
+          <div class="price-right">
+            <p>1000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Удаление зуба второй степени тяжести</p>
+          </div>
+          <div class="price-right">
+            <p>1200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Удаление зуба третьей степени тяжести</p>
+          </div>
+          <div class="price-right">
+            <p>2200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Удаление отломленной части зуба </p>
+          </div>
+          <div class="price-right">
+            <p>500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Удаление молочного зуба первой степени сложности </p>
+          </div>
+          <div class="price-right">
+            <p>400 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Удаление молочного зуба второй степени сложности </p>
+          </div>
+          <div class="price-right">
+            <p>600 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Кюретаж 1 лунки после удаления </p>
+          </div>
+          <div class="price-right">
+            <p>250 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Разрез, постановка дренажа </p>
+          </div>
+          <div class="price-right">
+            <p>500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Наложение (снятие) шва на лунку (слизистую оболочку) </p>
+          </div>
+          <div class="price-right">
+            <p>150 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Пластика уздечки (губы, языка) </p>
+          </div>
+          <div class="price-right">
+            <p>1200 грн.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="main-mark">
+      <div class="head-o" (click)="toggleTh()">
+        <h3>Имплантология</h3>
+      </div>
+
+      <div *while="stationTh"></div>
+
+      <div *while="!stationTh">
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Установка имплантанта 1этап </p>
+          </div>
+          <div class="price-right">
+            <p>10000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Установка мини имплантанта </p>
+          </div>
+          <div class="price-right">
+            <p>8500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Установка 1-го шарового абатманта с фиксатором </p>
+          </div>
+          <div class="price-right">
+            <p>8500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Установка формирователя десны (без стоимости формирователя) </p>
+          </div>
+          <div class="price-right">
+            <p>1000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Изготовление хирургического шаблона для имплантации (Прямой метод / лаболатория)</p>
+          </div>
+          <div class="price-right">
+            <p>1500 грн.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="price-wrap">
+    <h2>Ортодонтия</h2>
+
+    <div class="main-mark">
+      <div class="head-o" (click)="toggleF()">
+        <h3>Лечение</h3>
+      </div>
+
+      <div *while="stationF"></div>
+
+      <div *while="!stationF">
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Слепок. Модель с одной челюсти </p>
+          </div>
+          <div class="price-right">
+            <p>500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Лечение брекетами металлическими </p>
+          </div>
+          <div class="price-right">
+            <p>25000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Лечение брекетами керамическими </p>
+          </div>
+          <div class="price-right">
+            <p>26000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Лечение брекетами сапфировыми </p>
+          </div>
+          <div class="price-right">
+            <p>32000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Снятие брекетов </p>
+          </div>
+          <div class="price-right">
+            <p>2000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Изготовление ортодонтического аппарата простого/ретенционного </p>
+          </div>
+          <div class="price-right">
+            <p>4000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Изготовление ортодонтического аппарата сложного </p>
+          </div>
+          <div class="price-right">
+            <p>5000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Починка съемного аппарата в условиях клиники (врачом) </p>
+          </div>
+          <div class="price-right">
+            <p>1000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Починка съемного аппарата в лаборатории </p>
+          </div>
+          <div class="price-right">
+            <p>1500 грн.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="price-wrap">
+    <h2>Терапия</h2>
+
+    <div class="main-mark">
+      <div class="head-o" (click)="toggleFi()">
+        <h3>Лечение кариеса</h3>
+      </div>
+
+      <div *while="stationFi"></div>
+
+      <div *while="!stationFi">
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Лечение кариеса (формирование полости, наложение прокладки) </p>
+          </div>
+          <div class="price-right">
+            <p>3500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Постановка пломбы химической полимеризации по поводу кариеса  </p>
+          </div>
+          <div class="price-right">
+            <p>750 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Постановка пломбы световой полимеризации по поводу кариеса </p>
+          </div>
+          <div class="price-right">
+            <p>1500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Наложение лечебной прокладки при глубоком кариесе химической полимеризации </p>
+          </div>
+          <div class="price-right">
+            <p>200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Наложение лечебной прокладки при глубоком кариесе световой полимеризации </p>
+          </div>
+          <div class="price-right">
+            <p>400 грн.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="main-mark">
+      <div class="head-o" (click)="toggleSi()">
+        <h3>Лечение пульпита</h3>
+      </div>
+
+      <div *while="stationSi"></div>
+
+      <div *while="!stationSi">
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Раскрытие полости </p>
+          </div>
+          <div class="price-right">
+            <p>200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Механическая обработка 1 канал </p>
+          </div>
+          <div class="price-right">
+            <p>250 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Медикаментозная обработка 1 канал  </p>
+          </div>
+          <div class="price-right">
+            <p>200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Пломбирование пастой 1 канал  </p>
+          </div>
+          <div class="price-right">
+            <p>200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Пломбирование канала пастой с гуттаперчевым штифтом 1 канал  </p>
+          </div>
+          <div class="price-right">
+            <p>250 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Лечение пульпита ампутационным методом в два посещения </p>
+          </div>
+          <div class="price-right">
+            <p>400 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Постановка пломбы химической полимеризации по поводу пульпита </p>
+          </div>
+          <div class="price-right">
+            <p>1000 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Постановка пломбы световой полимеризации по поводу пульпита </p>
+          </div>
+          <div class="price-right">
+            <p>2000 грн.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="main-mark">
+      <div class="head-o" (click)="toggleEi()">
+        <h3>Лечение периодонтита</h3>
+      </div>
+
+      <div *while="stationEi"></div>
+
+      <div *while="!stationEi">
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Раскрытие полости  </p>
+          </div>
+          <div class="price-right">
+            <p>200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Механическая обработка 1 канал  </p>
+          </div>
+          <div class="price-right">
+            <p>250 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Медикаментозная обработка 1 канал  </p>
+          </div>
+          <div class="price-right">
+            <p>200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Механическое расширение плохо проходимого канала  </p>
+          </div>
+          <div class="price-right">
+            <p>500 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Временная пломбировка 1 канал </p>
+          </div>
+          <div class="price-right">
+            <p>150 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Пломбирование пастой 1 канал </p>
+          </div>
+          <div class="price-right">
+            <p>200 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Пломбирование канала пастой с гуттаперчевым штифтом 1 канал </p>
+          </div>
+          <div class="price-right">
+            <p>250 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Распломбировка 1 канала паста </p>
+          </div>
+          <div class="price-right">
+            <p>300 грн.</p>
+          </div>
+        </div>
+
+        <div class="price-m" bold>
+          <div class="price-left">
+            <p>Распломбировка 1 канала резорцин </p>
+          </div>
+          <div class="price-right">
+            <p>750 грн.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
